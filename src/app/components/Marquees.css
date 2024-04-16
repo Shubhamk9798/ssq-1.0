@@ -1,0 +1,29 @@
+.width-container {
+  width: 350px;
+  display: flex;
+  height: 230px;
+  gap: 25px;
+  align-items: center;
+  margin-top: 20px;
+}
+.outer-border-m {
+  padding: 30px;
+  width: 150px;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 12px;
+}
+
+@media only screen and (max-width: 480px) {
+  .width-container {
+    width: 690px;
+    gap: 30px;
+  }
+  .outer-border-m {
+    padding: 30px;
+    width: 145px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 12px;
+  }
+}
