@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "SSquareIT",
-  description: "A demo website for event organizing company.",
+  description: "provide training and premium placement support to all the IT Courses.",
 };
 
 export default function RootLayout({ children }) {
