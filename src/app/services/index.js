@@ -31,7 +31,7 @@ export const queryHomepage = async () => {
         batchdescription
       }
 
-      placements {
+      placements(first:100) {
         image {
           url
         }
